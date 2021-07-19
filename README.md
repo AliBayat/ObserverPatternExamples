@@ -14,7 +14,7 @@ Examples of this pattern are presented in following languages:
 * [Python][6]
 * [Ruby][7]
 * [Swift][8]
-* [Typescript][9]
+* [TypeScript][9]
 
 ---
 
@@ -28,4 +28,4 @@ if you would like to add example in any language i left out, you are welcomed to
   [6]: Python/README.md
   [7]: Ruby/README.md
   [8]: Swift/README.md
-  [9]: Typescript/README.md
+  [9]: TypeScript/README.md
