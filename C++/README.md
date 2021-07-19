@@ -176,7 +176,7 @@ int main() {
 }
 ```
 
-#### output.txt: Execution result
+#### Output.txt: Execution result
 
 ```
 Hi, I'm the Observer "1".

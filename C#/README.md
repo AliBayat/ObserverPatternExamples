@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace RefactoringGuru.DesignPatterns.Observer.Conceptual
+namespace DesignPatterns.Observer.Conceptual
 {
     public interface IObserver
     {
@@ -146,7 +146,7 @@ namespace RefactoringGuru.DesignPatterns.Observer.Conceptual
 }
 ```
 
-#### output.txt: Execution result
+#### Output.txt: Execution result
 
 ```
 Subject: Attached an observer.

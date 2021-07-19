@@ -136,7 +136,7 @@ func main() {
 ```
 
 
-#### output.txt: Execution result
+#### Output.txt: Execution result
 
 ```
 Item Nike Shirt is now in stock
