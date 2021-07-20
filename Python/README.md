@@ -25,7 +25,7 @@ This example illustrates the structure of the **Observer** design pattern. It fo
 
 #### main.py: Conceptual example
 
-```
+```python
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from random import randrange
