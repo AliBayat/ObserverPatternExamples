@@ -4,7 +4,7 @@
 
 The Observer pattern provides a way to subscribe and unsubscribe to and from these events for any object that implements a subscriber interface.
 
----
+---c++
 
 ### Usage of the pattern in C++
 
