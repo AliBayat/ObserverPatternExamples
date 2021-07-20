@@ -22,7 +22,7 @@ This example illustrates the structure of the **Observer** design pattern. It fo
 
 #### Program.cs: Conceptual example
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 using System.Threading;
