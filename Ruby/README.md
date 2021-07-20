@@ -25,7 +25,7 @@ This example illustrates the structure of the **Observer** design pattern. It fo
 
 #### main.rb: Conceptual example
 
-```
+```ruby
 # The Subject interface declares a set of methods for managing subscribers.
 class Subject
   # Attach an observer to the subject.
