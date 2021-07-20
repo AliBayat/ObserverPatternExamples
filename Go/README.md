@@ -35,7 +35,7 @@ type subject interface {
 
 #### item.go: Concrete subject
 
-```
+```go
 package main
 
 import "fmt"
@@ -85,7 +85,7 @@ func removeFromslice(observerList []observer, observerToRemove observer) []obser
 
 #### observer.go: Observer
 
-```
+```go
 package main
 
 type observer interface {
@@ -97,7 +97,7 @@ type observer interface {
 
 #### customer.go: Concrete observer
 
-```
+```go
 package main
 
 import "fmt"
@@ -118,7 +118,7 @@ func (c *customer) getID() string {
 
 #### main.go: Client code
 
-```
+```go
 package main
 
 func main() {
