@@ -26,7 +26,7 @@ After learning about the pattern’s structure it’ll be easier for you to gras
 
 #### Example1.swift: Conceptual example
 
-```
+```swift
 import XCTest
 
 /// The Subject owns some important state and notifies observers when the state
@@ -164,7 +164,7 @@ Subject: Notifying observers...
 
 #### Example2.swift: Real world example
 
-```
+```swift
 import XCTest
 
 class ObserverRealWorld: XCTestCase {
