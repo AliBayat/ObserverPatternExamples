@@ -25,7 +25,7 @@ This example illustrates the structure of the **Observer** design pattern. It fo
 
 #### index.ts: Conceptual example
 
-```
+```typescript
 /**
  * The Subject interface declares a set of methods for managing subscribers.
  */
