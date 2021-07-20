@@ -29,7 +29,7 @@ Subscriber classes aren’t coupled to the editor class and can be reused in oth
 
 #### publisher/EventManager.java: Basic publisher
 
-```
+```java
 package design_patterns.observer.example.publisher;
 
 import design_patterns.observer.example.listeners.EventListener;
@@ -71,7 +71,7 @@ public class EventManager {
 
 #### editor/Editor.java: Concrete publisher, tracked by other objects
 
-```
+```java
 package design_patterns.observer.example.editor;
 
 import design_patterns.observer.example.publisher.EventManager;
@@ -104,7 +104,7 @@ public class Editor {
 
 #### listeners/EventListener.java: Common observer interface
 
-```
+```java
 package design_patterns.observer.example.listeners;
 
 import java.io.File;
@@ -117,7 +117,7 @@ public interface EventListener {
 
 #### listeners/EmailNotificationListener.java: Sends emails upon receiving notification
 
-```
+```java
 package design_patterns.observer.example.listeners;
 
 import java.io.File;
@@ -139,7 +139,7 @@ public class EmailNotificationListener implements EventListener {
 
 #### listeners/LogOpenListener.java: Writes a message to a log upon receiving notification
 
-```
+```java
 package design_patterns.observer.example.listeners;
 
 import java.io.File;
@@ -161,7 +161,7 @@ public class LogOpenListener implements EventListener {
 
 #### Demo.java: Initialization code
 
-```
+```java
 package design_patterns.observer.example;
 
 import design_patterns.observer.example.editor.Editor;
