@@ -26,7 +26,7 @@ After learning about the pattern’s structure it’ll be easier for you to gras
 
 #### index1.php: Conceptual example
 
-```
+```php
 <?php
 
 namespace DesignPatterns\Observer\Conceptual;
