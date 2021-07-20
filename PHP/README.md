@@ -206,7 +206,7 @@ The repository emits various types of events and allows observers to listen to a
 
 #### index2.php: Real world example
 
-```
+```php
 <?php
 
 namespace DesignPatterns\Observer\RealWorld;
