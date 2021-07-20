@@ -22,7 +22,7 @@ Option 3 is most viable, and this is what the Observer pattern is all about. The
 
 #### subject.go: Subject
 
-```
+```go
 package main
 
 type subject interface {
